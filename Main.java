@@ -55,6 +55,9 @@ public class Main {
             System.out.println(tercerizado.getNome() + " - Salário: R$" + tercerizado.calcularSalario());
         }
 
+        // Mensagem final
+        System.out.println("\nPrograma encerrado. Obrigado por utilizar o sistema!");
+
         scanner.close();
     }
 }
